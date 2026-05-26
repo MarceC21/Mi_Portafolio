@@ -9,6 +9,7 @@ import Tecnologias from "@/src/sections/tecnologias";
 import Proyectos from "@/src/sections/proyectos";
 import Contacto from "@/src/sections/contacto";
 
+
 export default function Home() {
   return (
     <>

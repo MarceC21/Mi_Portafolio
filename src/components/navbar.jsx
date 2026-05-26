@@ -1,3 +1,10 @@
+// Aqui es para el navbar
+
+import React from 'react';
+import "./navbar.css";
+
+
+
 export default function Navbar() {
   return (
     <nav className="navbar">
@@ -5,7 +12,7 @@ export default function Navbar() {
       {/* Nombre / logo */}
       <div className="logo">
         <a href="#bienvenida" aria-label="Ir al inicio">
-           Marcela
+           MC
         </a>
       </div>
 

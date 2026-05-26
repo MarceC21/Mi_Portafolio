@@ -9,10 +9,11 @@ import React from 'react';
 
 export default function Contacto() {
   return (
-    <section id="contacto">
-      <h2>Contacto</h2>
+    <section id="contacto" className="section">
+      <div className="container">
+        <h2 className="section-title">Contacto</h2>
 
-      <div className="contacto-wrapper">
+        <div className="contacto-wrapper">
 
         {/* Info de contacto */}
         <div className="contacto-info">
@@ -86,11 +87,12 @@ export default function Contacto() {
             />
           </div>
 
-          <button type="submit" className="btn-enviar">
+          <button type="submit" className="btn btn-primary btn-enviar">
             Enviar mensaje 🚀
           </button>
         </form>
 
+        </div>
       </div>
     </section>
   );

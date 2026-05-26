@@ -1,7 +1,7 @@
 // Cards para la seccion about
 export default function CardAbout({ icono, title, description }) {
   return (
-    <div className="card-about">
+    <div className="card card-about">
       <div className="icono">{icono}</div>
       <h3>{title}</h3>
       <p>{description}</p>
@@ -12,7 +12,7 @@ export default function CardAbout({ icono, title, description }) {
 // Card para la sección de tecnologías
 export function CardTecnologia({ icono, nombre }) {
   return (
-    <div className="card-tecnologia">
+    <div className="card card-tecnologia">
       <div className="icono">{icono}</div>
       <h3>{nombre}</h3>
     </div>
@@ -22,7 +22,7 @@ export function CardTecnologia({ icono, nombre }) {
 // Card para la sección de proyectos
 export function CardProyecto({ imagen, titulo, descripcion, tecnologias, repositorio, demo }) {
   return (
-    <div className="card-proyecto">
+    <div className="card card-proyecto">
       <div className="card-proyecto-imagen">
         {imagen ? (
           <img
@@ -53,7 +53,7 @@ export function CardProyecto({ imagen, titulo, descripcion, tecnologias, reposit
               href={repositorio}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-repo"
+              className="btn btn-secondary btn-repo"
             >
               GitHub
             </a>
@@ -63,7 +63,7 @@ export function CardProyecto({ imagen, titulo, descripcion, tecnologias, reposit
               href={demo}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-demo"
+              className="btn btn-primary btn-demo"
             >
               Ver demo
             </a>
