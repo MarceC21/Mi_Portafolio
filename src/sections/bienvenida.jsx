@@ -1,5 +1,7 @@
 import React from "react";
 
+import "@/src/style/hero.css";
+
 export default function Bienvenida() {
   return (
     <section id="bienvenida" className="section">
