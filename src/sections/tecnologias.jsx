@@ -1,6 +1,8 @@
 import React from 'react';
 import { CardTecnologia } from "../ui/card";
 import tecnologias from "../data/tecnologias";
+
+import "@/src/style/tec.css";
  
 export default function Tecnologias() {
   return (
