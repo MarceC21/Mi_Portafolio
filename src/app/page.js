@@ -22,6 +22,7 @@ export default function Home() {
         <Tecnologias />
         <Proyectos />
         <Contacto />
+        
       </main>
 
       <Footer />
