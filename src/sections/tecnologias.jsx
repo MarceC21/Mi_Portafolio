@@ -1,62 +1,20 @@
 import React from 'react';
-
-import CardTecnologia from "../ui/card";
-
-
+import { CardTecnologia } from "../ui/card";
+import tecnologias from "../data/tecnologias";
+ 
 export default function Tecnologias() {
   return (
-    <section id = "tecnologias">
+    <section id="tecnologias">
       <h2>Tecnologías</h2>
       <div className="cards">
-        <CardTecnologia
-          icono="⚛️"
-          nombre="React"
-        />
-        <CardTecnologia
-          icono=""
-          nombre="Next.js"
-        />
-        <CardTecnologia
-          icono=""
-          nombre="React Native"
-        />
-        <CardTecnologia
-          icono="🐍"
-          nombre="Python"
-        />
-        <CardTecnologia
-          icono="☕"
-          nombre="Java"
-        />
-
-        <CardTecnologia
-          icono=""
-          nombre="Javascript"
-        />
-
-        <CardTecnologia
-          icono="💻"
-          nombre="HTML"
-        />
-
-        <CardTecnologia
-          icono="🎨"
-          nombre="CSS"
-        />
-
-        <CardTecnologia
-          icono=""
-          nombre="Node.js"
-        />
-
-        <CardTecnologia
-          icono="🐘"
-          nombre="PostgreSQL"
-        />
-
+        {tecnologias.map((tech, index) => (
+          <CardTecnologia
+            key={index}
+            icono={tech.icono}
+            nombre={tech.nombre}
+          />
+        ))}
       </div>
-
     </section>
-
   );
 }
