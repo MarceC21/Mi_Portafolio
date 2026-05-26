@@ -1,6 +1,6 @@
 # 🚀 Portafolio Web Personal – Marcela Castillo
 
-Portafolio web personal desarrollado con **Next.js** como parte del Laboratorio #8 del curso de **Sistemas y Tecnologías Web** en la Universidad del Valle de Guatemala.
+Portafolio web personal 
 
 Este proyecto funciona como una recopilación profesional de mis proyectos, laboratorios y habilidades dentro del desarrollo web. El objetivo es presentar mi experiencia, tecnologías que he aprendido durante el curso y algunos de los proyectos que he desarrollado.
 
@@ -59,71 +59,8 @@ portfolio/
 └── README.md
 
 
-¡Sí! Y como ya vienes con el portafolio en Next.js, temática espacial, secciones de bienvenida/about/tecnologías/proyectos/contacto y el laboratorio pide que se vea profesional y tenga repo + deploy, te ayudo a dejar un README listo para pegar en tu repo.
 
-Te dejo uno en español (que queda bien para la U) y fácil de personalizar:
-
-````md
-# 🚀 Portafolio Web Personal – Marcela Castillo
-
-Portafolio web personal desarrollado con **Next.js** como parte del Laboratorio #8 del curso de **Sistemas y Tecnologías Web** en la Universidad del Valle de Guatemala.
-
-Este proyecto funciona como una recopilación profesional de mis proyectos, laboratorios y habilidades dentro del desarrollo web. El objetivo es presentar mi experiencia, tecnologías que he aprendido durante el curso y algunos de los proyectos que he desarrollado.
-
----
-
-## 🌌 Diseño
-
-El portafolio fue diseñado con una temática inspirada en el espacio:
-
-- Fondo con gradientes oscuros estilo galaxia
-- Detalles visuales inspirados en estrellas
-- Tarjetas con efecto glassmorphism
-- Acentos en tonos morados y rosados
-- Diseño responsivo para escritorio, tablet y móvil
-
----
-
-## 🛠️ Tecnologías utilizadas
-
-- **Next.js**
-- **React**
-- **CSS**
-- **JavaScript**
-- **Git & GitHub**
-- **Vercel**
-
----
-
-## 📁 Estructura del proyecto
-
-```bash
-portfolio/
-│
-├── public/
-│
-├── src/
-│   ├── components/
-│   │   ├── navbar.jsx
-│   │   └── footer.jsx
-│   │
-│   ├── sections/
-│   │   ├── bienvenida.jsx
-│   │   ├── hero.jsx
-│   │   ├── about.jsx
-│   │   ├── tecnologias.jsx
-│   │   ├── proyectos.jsx
-│   │   └── contacto.jsx
-│   │
-│   └── styles/
-│
-├── app/
-│   ├── globals.css
-│   ├── layout.js
-│   └── page.js
-│
-└── README.md
-````
+```
 
 ---
 
@@ -212,7 +149,7 @@ http://localhost:3000
 Proyecto desplegado en:
 
 **Vercel:**
-[URL]
+[[URL](https://mi-portafolio-flame-eight.vercel.app/)]
 
 
 ---
