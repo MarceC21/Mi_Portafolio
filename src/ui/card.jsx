@@ -1,14 +1,23 @@
 // Cards para la seccion about
-export default function CardAbout({ icono, title, description }) {
+export default function CardAbout({
+  icono,
+  title,
+  description,
+}) {
   return (
-    <div className="card card-about">
-      <div className="icono">{icono}</div>
-      <h3>{title}</h3>
+    <div className="card">
+
+      <div className="card-header">
+        <span className="card-icon">{icono}</span>
+
+        <h3>{title}</h3>
+      </div>
+
       <p>{description}</p>
+
     </div>
   );
 }
-
 // Card para la sección de tecnologías
 export function CardTecnologia({ icono, nombre }) {
   return (

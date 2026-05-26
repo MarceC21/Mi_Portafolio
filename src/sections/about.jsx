@@ -1,5 +1,6 @@
 import React from 'react';
 
+import "@/src/style/about.css";
 
 import CardAbout from "../ui/card";
 
