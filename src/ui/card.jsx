@@ -1,3 +1,10 @@
+// Aqui estan todas las card 
+
+import React from 'react';
+
+import "@/src/style/proyect.css";
+
+
 // Cards para la seccion about
 export default function CardAbout({
   icono,
@@ -28,57 +35,74 @@ export function CardTecnologia({ icono, nombre }) {
   );
 }
 
-// Card para la sección de proyectos
-export function CardProyecto({ imagen, titulo, descripcion, tecnologias, repositorio, demo }) {
-  return (
-    <div className="card card-proyecto">
-      <div className="card-proyecto-imagen">
-        {imagen ? (
-          <img
-            src={imagen}
-            alt={`Captura de ${titulo}`}
-            className="imagen-proyecto"
-          />
-        ) : (
-          <div className="imagen-placeholder">
-            Proyecto en desarrollo. ¡Pronto habrá una imagen aquí!
-          </div>
-        )}
-      </div>
 
-      <div className="card-proyecto-body">
+
+// Card para la sección de proyectos
+export function CardProyecto({
+  imagen,
+  titulo,
+  descripcion,
+  tecnologias,
+  repositorio,
+  demo,
+}) {
+  return (
+    <article className="card proyecto-card">
+
+      {/* Imagen o placeholder */}
+      {imagen ? (
+        <img
+          src={imagen}
+          alt={titulo}
+          className="proyecto-img"
+        />
+      ) : (
+        <div className="proyecto-placeholder">
+          <span>🚀</span>
+        </div>
+      )}
+
+      {/* Contenido */}
+      <div className="proyecto-content">
+
         <h3>{titulo}</h3>
+
         <p>{descripcion}</p>
 
-        <div className="tecnologias">
-          {tecnologias.map((tech, index) => (
-            <span key={index} className="tecnologia">{tech}</span>
+        <div className="proyecto-tech">
+          {tecnologias.map((tech) => (
+            <span key={tech} className="tech-tag">
+              {tech}
+            </span>
           ))}
         </div>
 
-        <div className="card-proyecto-links">
+        <div className="proyecto-links">
+
           {repositorio && (
             <a
               href={repositorio}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-secondary btn-repo"
+              className="btn btn-primary"
             >
               GitHub
             </a>
           )}
+
           {demo && (
             <a
               href={demo}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-primary btn-demo"
+              className="btn btn-secondary"
             >
-              Ver demo
+              Demo
             </a>
           )}
+
         </div>
       </div>
-    </div>
+    </article>
   );
 }

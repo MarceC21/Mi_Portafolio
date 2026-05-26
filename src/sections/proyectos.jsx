@@ -2,6 +2,8 @@ import React from 'react';
 import { CardProyecto } from "../ui/card";
 import proyectos from "../data/proyectos";
 
+import "@/src/style/proyect.css";
+
 export default function Proyectos() {
   return (
     <section id="proyectos" className="section">

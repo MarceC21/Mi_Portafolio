@@ -23,6 +23,7 @@ export default function Bienvenida() {
             href="https://www.linkedin.com/in/marcela-castillo-80573b399/"
             target="_blank"
             rel="noopener noreferrer"
+            className="btn btn-primary"
           >
             LinkedIn
           </a>
@@ -31,6 +32,7 @@ export default function Bienvenida() {
             href="https://github.com/MarceC21"
             target="_blank"
             rel="noopener noreferrer"
+            className="btn btn-primary"
           >
             GitHub
           </a>

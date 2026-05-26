@@ -85,33 +85,7 @@
   justify-content: center;
 }
 
-.social-links a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
 
-  min-width: 130px;
-
-  padding: 0.75rem 1.5rem;
-
-  border-radius: var(--radius-sm);
-
-  border: 1px solid var(--border-medium);
-
-  background: linear-gradient(
-    to bottom right,
-    rgba(88, 28, 135, 0.25),
-    rgba(131, 24, 67, 0.25)
-  );
-
-  backdrop-filter: blur(8px);
-
-  color: var(--text-primary);
-
-  font-weight: var(--font-weight-medium);
-
-  transition: var(--transition);
-}
 
 .social-links a:hover {
   transform: translateY(-4px);
