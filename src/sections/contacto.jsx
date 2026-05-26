@@ -6,20 +6,18 @@
 
 import React from 'react';
 
+import "@/src/style/contacto.css";
 
 export default function Contacto() {
   return (
     <section id="contacto" className="section">
       <div className="container">
-        <h2 className="section-title">Contacto</h2>
+        <h2 className="section-title">¿Tienes un proyecto en mente o quieres conectar? ¡Escríbeme!</h2>
 
         <div className="contacto-wrapper">
 
         {/* Info de contacto */}
         <div className="contacto-info">
-          <p className="contacto-intro">
-            ¿Tienes un proyecto en mente o quieres conectar? ¡Escríbeme!
-          </p>
 
           <ul className="contacto-links">
             <li>
