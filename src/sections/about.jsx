@@ -7,12 +7,13 @@ import CardAbout from "../ui/card";
 export default function About() {
   return (
     <section id="sobre-mi">
-      <h2>Sobre mí</h2>
+      <h2>Un poco sobre mí</h2>
       <div className="cards">
         <CardAbout 
           icono="👩‍💻" 
           title="Quién soy" 
-          description="Estudiante de Ingeniería en Informática con conocimientos en programación y diseño web." 
+          description="
+          Estudiante de Ingeniería en Computación apasionada por el desarrollo de software y el diseño web." 
         />
         <CardAbout 
           icono="🎯" 
@@ -22,7 +23,7 @@ export default function About() {
         <CardAbout 
           icono="📚" 
           title="Áreas que deseo seguir aprendiendo" 
-          description="Computación en la nube, ciberseguridad y mejores prácticas de desarrollo" 
+          description="Computación en la nube, ciberseguridad y mejores prácticas de desarrollo." 
         />
       </div>
     </section>

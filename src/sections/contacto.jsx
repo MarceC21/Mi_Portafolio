@@ -22,11 +22,13 @@ export default function Contacto() {
 
           <ul className="contacto-links">
             <li>
-              <a href="mailto:tu.correo@example.com" className="contacto-link">
+              <a href="mailto:marcelap.castillo2102@gmail.com" className="contacto-link">
                 <span className="contacto-icon">✉️</span>
-                tu.correo@example.com
+                marcelap.castillo2102@gmail.com
               </a>
             </li>
+
+            {/* Enlaces a GitHub y LinkedIn */}
             <li>
               <a
                 href="https://github.com/MarceC21"
@@ -38,6 +40,7 @@ export default function Contacto() {
                 github.com/MarceC21
               </a>
             </li>
+
             <li>
               <a
                 href="https://www.linkedin.com/in/marcela-castillo-80573b399/"
@@ -48,7 +51,7 @@ export default function Contacto() {
                 <span className="contacto-icon">💼</span>
                 LinkedIn
               </a>
-            </li>
+            </li>        
           </ul>
         </div>
 

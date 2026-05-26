@@ -7,9 +7,9 @@ export default function Tecnologias() {
     <section id="tecnologias">
       <h2>Tecnologías</h2>
       <div className="cards">
-        {tecnologias.map((tech, index) => (
+        {tecnologias.map((tech) => (
           <CardTecnologia
-            key={index}
+            key={tech.nombre}
             icono={tech.icono}
             nombre={tech.nombre}
           />

@@ -24,7 +24,17 @@ export function CardProyecto({ imagen, titulo, descripcion, tecnologias, reposit
   return (
     <div className="card-proyecto">
       <div className="card-proyecto-imagen">
-        <img src={imagen} alt={`Captura de ${titulo}`} className="imagen-proyecto" />
+        {imagen ? (
+          <img
+            src={imagen}
+            alt={`Captura de ${titulo}`}
+            className="imagen-proyecto"
+          />
+        ) : (
+          <div className="imagen-placeholder">
+            Proyecto en desarrollo. ¡Pronto habrá una imagen aquí!
+          </div>
+        )}
       </div>
 
       <div className="card-proyecto-body">

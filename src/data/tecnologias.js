@@ -7,10 +7,12 @@ const tecnologias = [
   { icono: "🐍", nombre: "Python" },
   { icono: "☕", nombre: "Java" },
   { icono: "⚡", nombre: "JavaScript" },
-  { icono: "💻", nombre: "HTML" },
+  { icono: "🌐", nombre: "HTML" },
   { icono: "🎨", nombre: "CSS" },
   { icono: "🟢", nombre: "Node.js" },
   { icono: "🐘", nombre: "PostgreSQL" },
+  { icono: "💻", nombre: "C" },
+  { icono: "🐳", nombre: "Docker" }
 ];
 
 export default tecnologias;

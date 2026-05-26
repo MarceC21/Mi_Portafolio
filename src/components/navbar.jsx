@@ -4,7 +4,9 @@ export default function Navbar() {
 
       {/* Nombre / logo */}
       <div className="logo">
-        <a href="#bienvenida">Marcela</a>
+        <a href="#bienvenida" aria-label="Ir al inicio">
+           Marcela
+        </a>
       </div>
 
       {/* Navegación */}
